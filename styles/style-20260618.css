@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -26,24 +27,29 @@ header {
   background-color: white;
   box-shadow: 0 1px 3px #757575;
 }
+
 header div.logo {
   display: flex;
   align-items: center;
   flex: 5 1 400px;
   margin: 2rem;
 }
+
 header div.logo img {
   width: 6vw;
   height: 6vw;
 }
+
 header nav {
   flex: 2 1 400px;
 }
+
 header nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
 }
+
 header nav ul li a {
   color: #09777d;
   text-decoration: none;
@@ -51,7 +57,7 @@ header nav ul li a {
 }
 
 main section.backImage {
-  background-image: url(/Pictures/pexels-photo-416676.jpeg);
+  background-image: url(Pictures/pexels-photo-416676.jpeg);
   min-height: 90vh;
   width: 100%;
   background-size: cover;
@@ -64,6 +70,7 @@ main section.backImage {
   align-items: center;
   text-align: center;
 }
+
 main section.backImage div.filter {
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -72,11 +79,13 @@ main section.backImage div.filter {
   top: 0;
   z-index: -1;
 }
+
 main section.backImage h3 {
   font-size: 3.5rem;
   color: white;
   margin: 2rem 0;
 }
+
 main section.backImage button.start {
   background-color: #3bf0e5;
   padding: 0.75rem 1.5rem;
@@ -86,6 +95,7 @@ main section.backImage button.start {
   border-radius: 1rem;
   cursor: pointer;
 }
+
 main section.second {
   min-height: 100vh;
   display: flex;
@@ -93,16 +103,19 @@ main section.second {
   align-items: center;
   text-align: center;
 }
+
 main section.second h2 {
   font-size: 2rem;
   margin: 2rem 0;
 }
+
 main section.second section.cards {
   display: flex;
   width: 80%;
   min-height: 80vh;
   flex-wrap: wrap;
 }
+
 main section.second section.cards div.card {
   display: flex;
   flex-direction: column;
@@ -111,29 +124,35 @@ main section.second section.cards div.card {
   padding: 1rem;
   flex: 1 1 300px;
 }
+
 main section.second section.cards div.card div.image-container {
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
   overflow: hidden;
 }
+
 main section.second section.cards div.card div.image-container img {
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
   transition: all 0.25s;
 }
+
 main section.second section.cards div.card div.image-container img:hover {
   transform: scale(1.2);
 }
+
 main section.second section.cards div.card h4 {
   font-size: 2rem;
   margin: 1rem 0;
 }
+
 main section.second section.cards div.card p {
   font-size: 1.25rem;
   margin: 1rem 0rem;
 }
+
 main section.second section.cards div.card a {
   text-decoration: none;
   padding: 1rem 1.5rem;
@@ -150,17 +169,21 @@ footer {
   justify-content: space-around;
   background-color: rgb(207, 207, 207);
 }
+
 footer div.logo {
   display: flex;
   align-items: center;
 }
+
 footer div.logo img {
   width: 6vw;
   height: 6vw;
 }
+
 footer nav {
   width: 30%;
 }
+
 footer nav ul {
   display: flex;
   list-style-type: none;
@@ -168,18 +191,22 @@ footer nav ul {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 footer nav ul li {
   flex-basis: 80px;
 }
+
 footer nav ul li a {
   color: white;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.35rem;
 }
+
 footer section.links a {
   margin: 0 1rem;
 }
+
 footer section.links a img {
   width: 5vw;
   height: 5vw;
@@ -211,30 +238,38 @@ footer section.links a img {
   header div.logo {
     margin-left: 0.5rem;
   }
+
   header div.logo img {
     width: 15vw;
     height: 15vw;
   }
+
   footer div.logo img {
     width: 15vw;
     height: 15vw;
   }
+
   footer section.links {
     margin-top: 1rem;
   }
+
   footer section.links a img {
     width: 10vw;
     height: 10vw;
   }
 }
+
 @media (max-width: 700px) {
   main section.second section.cards div.card div.image-container {
     width: 40vw;
     height: 40vw;
     border-radius: 50%;
   }
+
   main section.second section.cards div.card div.image-container img {
     width: 40vw;
     height: 40vw;
   }
-}/*# sourceMappingURL=style-20260618.css.map */
+}
+
+/*# sourceMappingURL=style-20260618.css.map */
