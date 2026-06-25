@@ -57,7 +57,7 @@ header nav ul li a {
 }
 
 main section.backImage {
-  background-image: url(Pictures/pexels-photo-416676.jpeg);
+  background-image: url(../Pictures/pexels-photo-416676.jpeg);
   min-height: 90vh;
   width: 100%;
   background-size: cover;
